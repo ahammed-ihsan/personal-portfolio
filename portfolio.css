@@ -1,0 +1,22 @@
+#pcard{
+    transition:transform 1s;
+    overflow: hidden;
+}
+#pcard:hover {
+transform: scale(1.3);
+}
+ 
+#skillcard1:hover{
+    background-color: orange;
+}
+#skillcard2:hover{
+    background-color: rgb(46, 148, 226);
+}
+#skillcard3:hover{
+    background-color: rgb(233, 207, 9);
+}
+#navbutton:hover{
+    background-color:black;
+    opacity: .5;
+    color: aliceblue;
+}
