@@ -8,6 +8,10 @@ function sendMail(){
 const serviceId="service_zkvevp4";
 const templateId="template_h02o3v9"
 
+if(params.name===""||params.email===""||params.message===""){
+    alert("please fill correctly")
+}
+
 
 emailjs.send(serviceId,templateId,params)
 .then(
